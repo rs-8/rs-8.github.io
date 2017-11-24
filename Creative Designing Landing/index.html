@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Креативный дизайн">
+	<meta name="keywords" content="Креативный Веб Дизайн, Профессиональный Веб Дизайн">
+  	<meta name="author" content="Султанов Рустем">
+    <title>Креативный дизайн | Добро пожаловать</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul> 
+        </nav>
+        <div class="main">
+            <div class="button">
+                <div id="burger">
+                    <div class="click"></div>
+                    <span></span>
+                </div>
+            </div> 
+            <div class="container container-home">
+                <img class="logo" src="./img/logo.svg" alt="лого">
+                <h1>Креативный дизайн</h1>
+                <strong>Простота становится элегантностью</strong>
+                <a href="#about"><button class="view">Глянуть больше</button></a>
+            </div>
+        </div>    
+    </header>
+    <section id="about">
+        <div class="container container-about">
+            <h2>О нас</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="about-image-wrapper">
+                <div class="box">
+                    <div class="circle"></div>
+                    <span>Творческий брендинг</span>
+                </div>
+                <div class="box">
+                    <div class="circle"></div>
+                    <span>Дизайн пользовательского интерфейса</span>
+                </div>
+                <div class="box">
+                    <div class="circle"></div>
+                    <span>Освещение в СМИ</span>
+                </div>
+            </div>             
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container container-portfolio">
+            <h2>Портфолио</h2>
+            <div class="portfolio-image-wrapper">
+                <img src="./img/portfolio-image-1.png" alt="portfolio-image-1"> 
+                <img src="./img/portfolio-image-2.png" alt="portfolio-image-2"> 
+                <img src="./img/portfolio-image-3.png" alt="portfolio-image-3"> 
+                <img src="./img/portfolio-image-4.png" alt="portfolio-image-4"> 
+                <img src="./img/portfolio-image-5.png" alt="portfolio-image-5"> 
+                <img src="./img/portfolio-image-6.png" alt="portfolio-image-6"> 
+                <img src="./img/portfolio-image-7.png" alt="portfolio-image-7"> 
+            </div>
+            <button class="view">Глянуть больше</button>
+        </div>
+        <div class="thanks">
+            <div class="container partners-wrap">
+                <span>Спасибо нашим партнерам</span>
+                <div class="partners-slider">
+                    <div class="slider-previous">
+                        <img src="./img/arrow.svg" alt="arrow-left">
+                    </div>                   
+                    <div class="slider-slides">
+                        <div class="slider-slide slide-1">
+                            <a href="http://www.gplanet-tech.com/">
+                                <img src="./img/partner-1.png" alt="partner-1">    
+                            </a>
+                        </div>
+                        <div class="slider-slide slide-2">
+                            <a href="http://mgcc.ae/">
+                                <img src="./img/partner-2.png" alt="partner-2">   
+                            </a>
+                        </div>
+                        <div class="slider-slide slide-3">
+                            <a href="http://www.dell.ru/">
+                                <img src="./img/partner-3.png" alt="partner-3">   
+                            </a>
+                        </div>
+                        <div class="slider-slide slide-4">
+                            <a href="https://www.4psa.com/">
+                                <img src="./img/partner-4.png" alt="partner-4">   
+                            </a>
+                        </div>
+                        <div class="slider-slide slide-5">
+                            <a href="https://www.indiegogo.com/en">
+                                <img src="./img/partner-5.png" alt="partner-5">   
+                            </a>
+                        </div>
+                        <div class="slider-slide slide-6">
+                            <a href="https://www.ibm.com/">
+                                <img src="./img/partner-6.png" alt="partner-6">   
+                            </a>
+                        </div>
+                        <div class="slider-slide slide-7">
+                            <a href="https://www.facebook.com/">
+                                <img src="./img/partner-7.png" alt="partner-7">   
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider-next">
+                        <img src="./img/arrow.svg" alt="arrow-right">
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="container container-contact">
+            <h2>Контакты</h2>
+            <form action="" method="POST">
+                <input class="name" type="text" placeholder="Ваше Имя...">
+                <input class="email" type="email" placeholder="Ваш E-Mail...">
+                <textarea class="message" type="text" placeholder="Ваше сообщение..."></textarea>
+                <button class="submit-button" type="submit" >Отправить</button>
+            </form>
+        </div>
+        <div class="rights"><p>&copy; 2017 Все права защищены</p></div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
