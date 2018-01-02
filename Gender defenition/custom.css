@@ -1,0 +1,21 @@
+h2, h4 {
+  text-align: center;
+}
+h2 {
+  margin-top: 100px;
+}
+h4.warning {
+  display: none;
+  color: rgba(140, 50, 192, 0.808);
+}
+h4.output {
+  display: none;
+  color: rgb(127, 14, 233)
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  width: 55%;
+}
